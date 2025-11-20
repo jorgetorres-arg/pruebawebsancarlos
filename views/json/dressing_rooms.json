@@ -1,0 +1,13 @@
+[
+    {
+        "id": 301,
+        "name": "Camerino Principal (Suite)",
+        "description": "Espacio amplio con baño privado, espejo de maquillaje iluminado, sofá y mini-nevera. Capacidad para 4 personas.",
+        "image": "images/dressing/main_suite.jpg",
+        "amenities": [
+            "A/C",
+            "Wi-Fi dedicado",
+            "Agua y Snacks"
+        ]
+    }
+]

@@ -1,0 +1,516 @@
+/* --- ESTILOS GENERALES --- */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Usar una fuente legible */
+    /*background-color: #000;*/
+    background-color: #8b8b8b;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* --- BARRA DE NAVEGACIÓN (NAV) --- */
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #000;
+    /* Fondo oscuro */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    /* Línea sutil */
+    position: relative;
+    z-index: 10;
+    /* Asegurar que esté sobre la imagen de portada */
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 60px;
+    /* Ajusta el tamaño del logo */
+    height: 45px;
+
+    /* Placeholder visible */
+    margin-right: 10px;
+    /* En un diseño real, reemplazarías esto por una imagen PNG/SVG */
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+
+/* Enlaces de Navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    /* Permite que la lista ocupe espacio central */
+    justify-content: center;
+    /* Centra los enlaces */
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    padding: 5px 0;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3c3cee;
+    /* Color rojo al pasar el ratón */
+}
+
+/* Enlace activo (el que tiene la línea roja debajo) */
+.nav-links a.active {
+    color: #3c3cee;
+    border-bottom: 2px solid #3c3cee;
+}
+
+/* Íconos Sociales */
+.social-icons a {
+    margin-left: 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #3c3cee;
+}
+
+/* --- PORTADA / HERO SECTION --- */
+.hero-section {
+    position: relative;
+    height: 70vh;
+    /* Altura de la sección de portada */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    /* Importante para que el pseudo-elemento no se desborde */
+
+    /* Imagen de Fondo (Reemplaza la URL con tu imagen) */
+    background-image: url('../imagenes/frenteTeatro.png');
+    background-size: cover;
+    background-position: center top;
+    /* Ajustar posición para que la cantante quede visible */
+}
+
+
+/* Overlay oscuro/rojo para mejorar el contraste */
+.hero-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Degradado oscuro, y en el fondo, una capa roja transparente para el efecto de color */
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+        rgba(2, 1, 94, 0.3);
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    /* Asegurar que el contenido esté sobre el overlay */
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Formulario de Búsqueda */
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search-input {
+    padding: 15px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 70%;
+    max-width: 400px;
+    outline: none;
+    box-sizing: border-box;
+    /* Incluir padding en el ancho */
+}
+
+.search-button {
+    padding: 15px 30px;
+    font-size: 1em;
+    border: none;
+    background-color: #a00;
+    /* Color rojo intenso */
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+.search-button:hover {
+    background-color: #e60000;
+}
+
+/* --- RESPONSIVE BÁSICO (Para asegurar visibilidad en móviles) --- */
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    .nav-links {
+        margin: 10px 0;
+        flex-wrap: wrap;
+        /* Permite que los enlaces pasen a otra línea */
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin: 5px 10px;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .hero-section {
+        height: 50vh;
+    }
+
+    .hero-content h1 {
+        font-size: 3em;
+    }
+
+    .search-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-input {
+        width: 90%;
+        max-width: 300px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+
+    .search-button {
+        width: 90%;
+        max-width: 300px;
+        border-radius: 4px;
+    }
+}
+
+/* --- SECCIÓN DE EVENTOS --- */
+.events-section {
+    padding: 60px 40px;
+    background-color: #111;
+    /* Un fondo oscuro para la sección */
+    text-align: center;
+}
+
+.events-section h2 {
+    color: #e60000;
+    /* Título en rojo para destacar */
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.shows-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* Espacio entre las tarjetas */
+    flex-wrap: wrap;
+    /* Permite que las tarjetas se ajusten en varias filas */
+}
+
+/* --- ESTILO DE LA TARJETA --- */
+.show-card {
+    background-color: #000;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 300px;
+    /* Ancho estándar de una tarjeta */
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.show-card:hover {
+    transform: translateY(-5px);
+    /* Efecto de elevación */
+    box-shadow: 0 8px 25px rgba(230, 0, 0, 0.3);
+    /* Sombra con toque rojo */
+}
+
+/* Contenedor de Imagen */
+.card-image-container {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+    transition: transform 0.5s;
+}
+
+.show-card:hover .card-image {
+    transform: scale(1.05);
+    /* Zoom sutil al pasar el ratón */
+}
+
+/* Contenido de Texto */
+.card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.show-name {
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.show-date {
+    color: #aaa;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.show-date i {
+    margin-right: 8px;
+    color: #e60000;
+    /* Ícono del calendario en rojo */
+}
+
+/* Botón Comprar */
+.buy-button {
+    display: block;
+    background-color: #a00;
+    /* Rojo oscuro */
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #e60000;
+    /* Rojo Gran Rex */
+}
+
+/*ESTILOS DE ACCESO A PRODUCTORES---------------------------------------*/
+/* ----------------------------------- */
+/* 1. Estilos del Contenedor Principal */
+/* ----------------------------------- */
+.technical-info-container {
+    width: 95%;
+    /* Un poco más de ancho */
+    max-width: 1200px;
+    /* Ancho máximo para pantallas grandes */
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ----------------------------------- */
+/* 2. Estilos de las Pestañas (Tabs) */
+/* ----------------------------------- */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ccc;
+    background-color: #e0e0e0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tab-button {
+    padding: 12px 25px;
+    cursor: pointer;
+    background-color: #e0e0e0;
+    border: none;
+    border-right: 1px solid #ccc;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.tab-button:last-child {
+    border-right: none;
+}
+
+.tab-button:hover {
+    background-color: #d0d0d0;
+    color: #000;
+}
+
+.tab-button.active {
+    background-color: #fff;
+    border-bottom: 2px solid #0056b3;
+    /* Línea de color para la pestaña activa */
+    color: #0056b3;
+    font-weight: bold;
+    margin-bottom: -2px;
+    /* Ajuste para que la línea de color tape el borde inferior */
+}
+
+/* ----------------------------------- */
+/* 3. Estilos del Contenido y Equipos */
+/* ----------------------------------- */
+.tab-content {
+    display: none;
+    padding: 25px;
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Estilo del Ítem de Equipo (Usando Flexbox) */
+.equipment-item {
+    display: flex;
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #eee;
+    align-items: flex-start;
+}
+
+.equipment-image {
+    width: 250px;
+    /* Aumentamos un poco el tamaño de la imagen */
+    height: 150px;
+    min-width: 250px;
+    /* Asegura que no se encoja */
+    object-fit: cover;
+    margin-right: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.equipment-details {
+    flex-grow: 1;
+}
+
+.equipment-details h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #0056b3;
+    font-size: 20px;
+}
+
+.equipment-details p {
+    margin-bottom: 12px;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* ----------------------------------- */
+/* 4. Estilos para las Especificaciones (Nuevo) */
+/* ----------------------------------- */
+
+.equipment-details p strong {
+    color: #333;
+    /* Color un poco más oscuro para el título "Specs" */
+    display: block;
+    /* Asegura que el título ocupe su propia línea */
+    margin-bottom: 5px;
+}
+
+/* Estilo para los ítems de la lista de specs separados por '|' */
+/* Asumo que usarás una clase o un span si los generas individualmente, 
+   pero si los generas como un texto único (como en el ejemplo JS), 
+   usaremos un contenedor o un estilo directo: */
+
+.equipment-details .specs-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* Si hay muchos ítems, se envolverán a la siguiente línea */
+    gap: 10px;
+    /* Espacio entre los ítems de la lista */
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+}
+
+/* Estilo para cada ítem de especificación */
+.specs-list li {
+    background-color: #eef4f8;
+    /* Un fondo sutil para destacar la info */
+    color: #2b6cb0;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Nota: Si usas el formato de texto plano con '|' de mi JS anterior: */
+/* Asegúrate de que el párrafo que contiene las specs tenga un color de fondo sutil si lo prefieres */
+.equipment-details p:last-of-type {
+    background-color: #f8f8f8;
+    padding: 10px;
+    border-left: 3px solid #0056b3;
+}
+
+
+
+
+
+
+/* RESPONSIVE AJUSTE PARA MÓVILES */
+@media (max-width: 768px) {
+    .shows-container {
+        gap: 20px;
+    }
+
+    .show-card {
+        max-width: 90%;
+    }
+
+    .events-section {
+        padding: 30px 20px;
+    }
+}

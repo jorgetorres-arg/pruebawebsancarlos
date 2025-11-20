@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teatro San Carlos</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="main-nav">
+        <div class="logo">
+            <img src="../imagenes/logo.png" alt="Logo Gran Rex" class="logo-img">
+            <!--<span class="logo-text">TEATRO SAN CARLOS</span>-->
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Shows</a></li>
+            <li><a href="#">Tecnica</a></li>
+            <li><a href="#" class="active">Acceso Productores</a></li>
+
+        </ul>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/p/Cine-Teatro-San-Carlos-61563402160116/"><i
+                    class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/teatrosancarlosjunin/"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </nav>
+
+
+    <div class="technical-info-container">
+
+        <h2>Ficha Técnica para Productores</h2>
+
+        <div class="tabs">
+            <button class="tab-button active"
+                onclick="openTab(event, 'Sound', 'json/sound_equipment.json')">Sonido</button>
+
+            <button class="tab-button"
+                onclick="openTab(event, 'Lighting', 'json/lighting_equipment.json')">Iluminación</button>
+
+            <button class="tab-button"
+                onclick="openTab(event, 'Screen', 'json/screen_equipment.json')">Pantalla</button>
+
+            <button class="tab-button"
+                onclick="openTab(event, 'DressingRooms', 'json/dressing_rooms.json')">Camarines</button>
+        </div>
+
+        <div id="Sound" class="tab-content active">
+        </div>
+
+        <div id="Lighting" class="tab-content">
+        </div>
+
+        <div id="Screen" class="tab-content">
+        </div>
+
+        <div id="DressingRooms" class="tab-content">
+        </div>
+
+    </div>
+
+    <script src="js/tabs.js"></script>
+
+
+</body>
+
+</html>

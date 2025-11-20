@@ -1,0 +1,13 @@
+[
+    {
+        "id": 101,
+        "name": "Foco Móvil LED Beam 300W",
+        "description": "Cabezal móvil de alta luminosidad con capacidad de cambio de color, gobos y prismas. Uso principal en escenarios.",
+        "image": "images/lighting/beam_300w.jpg",
+        "specs": [
+            "300W LED",
+            "14 Gobos",
+            "Zoom motorizado"
+        ]
+    }
+]

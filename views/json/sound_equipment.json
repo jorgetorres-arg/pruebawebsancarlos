@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "30 - MODULOS - RCF HDL 26-A.",
+        "description": "Mesa de mezcla digital con 32 canales, preamplificadores de alta calidad y capacidad de grabación multicanal. Ideal para eventos de tamaño medio.",
+        "image": "images/sound/rcf26.png",
+        "technical_specs": [
+            "32 Canales",
+            "96kHz",
+            "Conexión Dante"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sistema PA Line Array L1",
+        "description": "Sistema de altavoces modular para una cobertura uniforme en todo el recinto. Alta potencia y claridad.",
+        "image": "images/sound/rcf26.png",
+        "technical_specs": [
+            "Potencia 15kW",
+            "4 Subwoofers",
+            "Configuración flexible"
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "id": 201,
+        "name": "Pantalla LED P3.9 Exterior",
+        "description": "Módulos de pantalla LED de alta resolución para eventos al aire libre o con gran iluminación. Fácil montaje y calibración.",
+        "image": "images/screen/led_p39.jpg",
+        "specs": [
+            "Pitch 3.9mm",
+            "Brillo 5000 nits",
+            "Dimensiones 6x4 metros"
+        ]
+    }
+]
