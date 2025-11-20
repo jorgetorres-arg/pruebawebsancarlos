@@ -1,24 +1,69 @@
 [
     {
         "id": 1,
-        "name": "30 - MODULOS - RCF HDL 26-A.",
-        "description": "Mesa de mezcla digital con 32 canales, preamplificadores de alta calidad y capacidad de grabación multicanal. Ideal para eventos de tamaño medio.",
+        "name": "PA | 30 - MODULOS - RCF HDL 26-A.",
+        "description": "MÓDULO LINE ARRAY ACTIVO DE DOS VÍAS",
         "image": "images/sound/rcf26.png",
         "technical_specs": [
-            "32 Canales",
-            "96kHz",
-            "Conexión Dante"
+            "SPL máximo de 133 dB",
+            "Amplificador de 2 canales de 2000 W",
+            "Crossover en 750 Hz para una mejor reproducción de la voz",
+            "Tecnología exclusiva FiRPHASE integrada"
         ]
     },
     {
         "id": 2,
-        "name": "Sistema PA Line Array L1",
-        "description": "Sistema de altavoces modular para una cobertura uniforme en todo el recinto. Alta potencia y claridad.",
+        "name": "PA | FRONT FILL COMPUESTO POR 3 RCF HDL 26-A",
+        "description": "MÓDULO LINE ARRAY ACTIVO DE DOS VÍAS",
         "image": "images/sound/rcf26.png",
         "technical_specs": [
-            "Potencia 15kW",
-            "4 Subwoofers",
-            "Configuración flexible"
+            "SPL máximo de 133 dB",
+            "Amplificador de 2 canales de 2000 W",
+            "Crossover en 750 Hz para una mejor reproducción de la voz",
+            "Tecnología exclusiva FiRPHASE integrada"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "PA | 4- RCF SUB 8006-AS 2x 18",
+        "description": "SUB-BAJO ACTIVO DE ALTA POTENCIA",
+        "image": "images/sound/rcfsub8006.png",
+        "technical_specs": [
+            "141 dB SPL máx.",
+            "5000W de potencia de pico - 2500W RMS",
+            "Respuesta en frecuencia de 30 Hz - 120 Hz",
+            "Dos altavoces de bajos de 18"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "PA | Lab Gruppen LMX 48 Lake Audio System Processor",
+        "description": "Procesador de sistema de audio para el control del sistema en aplicaciones de alto rendimiento",
+        "image": "images/sound/lake.png",
+        "technical_specs": [
+            "Ecualización de coseno elevado más fase lineal",
+            "Crossover clásico FIR y capacidad Lake XP",
+            "FIR dedicado para optimización de matriz y compresor multibanda/limitador para capacidades de modelado de sonido máximas"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "PA | PACHERA SPLITTER - RAPCO HORIZONT",
+        "description": "PACHERA SPLITTER 52 canales + 8 envíos . RAPCO HORIZONT x 48 canales para consola de monitores",
+        "image": "images/sound/pachera.png",
+        "technical_specs": [
+            "52 canales + 8 envíos",
+            "48 canales para consola de monitores"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "MONITOREO | SIDE FILL | 6- MODULOS - NEXO GEO S12 ",
+        "description": "El GEO S12, compacto y de 2 vías, es un módulo escalable con excepcional potencia acústica en medios-bajos",
+        "image": "images/sound/nexogeos12.png",
+        "technical_specs": [
+            "103dB SPL de sensibilidad nominal a 1W/1m",
+            "Salida con perfil avanzado de velocidad constante con curvatura de frente de onda de 28,5°"
         ]
     }
 ]
