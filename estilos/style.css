@@ -109,7 +109,7 @@ a {
     /* Importante para que el pseudo-elemento no se desborde */
 
     /* Imagen de Fondo (Reemplaza la URL con tu imagen) */
-    background-image: url('../imagenes/frenteTeatro.png');
+    background-image: url('../imagenes/frenteTeatroBaja.png');
     background-size: cover;
     background-position: center top;
     /* Ajustar posición para que la cantante quede visible */
@@ -593,5 +593,6 @@ a {
         text-align: left;
         /* Asegura que el título "Specs" se alinee a la izquierda */
     }
+
 
 }
