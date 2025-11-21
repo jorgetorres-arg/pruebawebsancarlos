@@ -1,13 +1,23 @@
 [
     {
         "id": 201,
-        "name": "Pantalla LED P3.9 Exterior",
-        "description": "Módulos de pantalla LED de alta resolución para eventos al aire libre o con gran iluminación. Fácil montaje y calibración.",
-        "image": "images/screen/led_p39.jpg",
-        "specs": [
-            "Pitch 3.9mm",
-            "Brillo 5000 nits",
-            "Dimensiones 6x4 metros"
+        "name": "PANTALLA LED 3.9 OUTDOOR",
+        "description": "Sistema Hub 7680 Hz",
+        "image": "images/screen/pantallaled.png",
+        "technical_specs": [
+            "Dimension 8 metros de ancho por 4 metros de alto",
+            "16 PANELES DE ANCHO POR 4 PANELES DE ALTO",
+            "RESOLUCION EN PIXELES 2048 X 1024"
+        ]
+    },
+    {
+        "id": 202,
+        "name": "PROCESADOR DE VIDEO/ESCALADOR - NOVASTAR VX1000",
+        "description": "Internal scaling function.",
+        "image": "images/screen/procesador.png",
+        "technical_specs": [
+            "Inputs: 1x 3G-SDI, 1x HDMI 2.0, 2x HDMI 1.3, 1x USB 3.0",
+            "Outputs: 1x HDMI 1.3, 10x Ethernet, 2x optical, 1x 3D emitter output"
         ]
     }
 ]

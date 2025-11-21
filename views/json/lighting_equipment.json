@@ -1,9 +1,9 @@
 [
     {
         "id": 101,
-        "name": "Foco Móvil LED Beam 300W",
+        "name": "CONSOLA MIDAS M2",
         "description": "Cabezal móvil de alta luminosidad con capacidad de cambio de color, gobos y prismas. Uso principal en escenarios.",
-        "image": "images/lighting/beam_300w.jpg",
+        "image": "images/lighting/midasm2.png",
         "specs": [
             "300W LED",
             "14 Gobos",

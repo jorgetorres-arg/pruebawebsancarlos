@@ -1,0 +1,236 @@
+[
+    {
+        "id": 1,
+        "name": "MICROFONO SHURE BETA 91 A",
+        "description": "CONDENSER",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "MICROFONO SHURE BETA 52 A",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "MICROFONO SHURE PG 52",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "MICROFONO SENNHEISER E 902",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/sennheiser.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "MICROFONO SENNHEISER E 905",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/sennheiser.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "MICROFONOS SHURE PG 56",
+        "description": "CONDENSER",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 3"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "MICROFONOS SHURE PG 81",
+        "description": "CONDENSER",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 2"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "MICROFONO SHURE SM 81",
+        "description": "CONDENSER",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 2"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "MICROFONOS SHURE SM 58",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 7"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "MICROFONOS SHURE SM 57",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 7"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "MICROFONOS SENNHEISER E 835",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/sennheiser.png",
+        "technical_specs": [
+            "Cantidad: 3"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "MICROFONO SENNHEISER E 838",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/sennheiser.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "MICROFONO SENNHEISER E 931",
+        "description": "DINAMICO",
+        "image": "images/microfoneria/sennheiser.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "DIRECT BOX PROFESIONAL – WHIRLWIND IMP 2",
+        "description": "PASIVA",
+        "image": "images/microfoneria/whirlwindimp2.png",
+        "technical_specs": [
+            "Cantidad: 6"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "DIRECT BOX PROFESIONAL– RAPCO HORIZON DBBLOX",
+        "description": "PASIVA",
+        "image": "images/microfoneria/rapcohorizondbblox.png",
+        "technical_specs": [
+            "Cantidad: 2"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "DIRECT BOX – XPRESSION DI200",
+        "description": "ACTIVA",
+        "image": "images/microfoneria/xpressiondi200.png",
+        "technical_specs": [
+            "Cantidad: 4"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "DIRECT BOX – MOON DB-01",
+        "description": "PASIVA",
+        "image": "images/microfoneria/moondb01.png",
+        "technical_specs": [
+            "Cantidad: 3"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "SOPORTE DE MICRÓFONO TMS S30 ",
+        "description": "ALTO",
+        "image": "images/microfoneria/tms.png",
+        "technical_specs": [
+            "Cantidad: 5"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "SOPORTE DE MICRÓFONO TMS S30-T",
+        "description": "CORTO",
+        "image": "images/microfoneria/tms.png",
+        "technical_specs": [
+            "Cantidad: 4"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "SOPORTE DE MICRÓFONO TMS S30-B",
+        "description": "CORTO BOMBO",
+        "image": "images/microfoneria/tms.png",
+        "technical_specs": [
+            "Cantidad: 1"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "SOPORTE DE MICROFONO BSX Metalico Profesiona",
+        "description": "ALTO",
+        "image": "images/microfoneria/bsx.png",
+        "technical_specs": [
+            "Cantidad: 4"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "SOPORTE DE MICROFONOS- HERCULES Ms432b",
+        "description": "JIRAFA",
+        "image": "images/microfoneria/hercules.png",
+        "technical_specs": [
+            "Cantidad: 2"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "OTROS -SOPORTE DE MICROFONOS",
+        "description": "",
+        "image": "images/microfoneria/piemicrofono.png",
+        "technical_specs": [
+            "Cantidad: 4"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "CLAMP SHURE - A56D - DRUM MICROPHONE MOUNT",
+        "description": "",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 3"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "CLAMP SHURE - A50D - DRUM MICROPHONE MOUNT",
+        "description": "",
+        "image": "images/microfoneria/shure.png",
+        "technical_specs": [
+            "Cantidad: 3"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "SOPORTE DE MICROFONO SMS- RTMS1",
+        "description": "CORTO",
+        "image": "images/microfoneria/sms.png",
+        "technical_specs": [
+            "Cantidad: 2"
+        ]
+    }
+]
