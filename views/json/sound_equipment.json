@@ -65,5 +65,85 @@
             "103dB SPL de sensibilidad nominal a 1W/1m",
             "Salida con perfil avanzado de velocidad constante con curvatura de frente de onda de 28,5°"
         ]
+    },
+    {
+        "id": 7,
+        "name": "MONITOREO | SIDE FILL | 2- SUB 2X 18- COMPACT DAS ",
+        "description": "El GEO S12, compacto y de 2 vías, es un módulo escalable con excepcional potencia acústica en medios-bajos",
+        "image": "images/sound/subdas.png",
+        "technical_specs": [
+            "Potencia de 1.6kW."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "MONITOREO | SIDE FILL | POTENCIAS CROWN DSP DIGITALES ",
+        "description": "POTENCIAS CROWN DSP DIGITALES",
+        "image": "images/sound/potenciacrown.png",
+        "technical_specs": [
+            "Sensibilidad de entrada seleccionable",
+            "Opciones de 1.4Vrms y 0.775Vrms"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "MONITOREO | MONITORES DE PISO | 2- DB THEGNOLOGIES- ACTIVOS - M12",
+        "description": "Monitor activo bi-amplificado de 2 vías",
+        "image": "images/sound/dbtechnologiesmonitores.png",
+        "technical_specs": [
+            "Compresion B&C de 1', 90° y 60°",
+            "70 - 18000 Hz"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "MONITOREO | MONITORES DE PISO | 4 – MONITORES TIPO NEXO PSR15 R2",
+        "description": "Sistema de alta potencia capaz de producir 136dB SPL de pico",
+        "image": "images/sound/monitoresnexo.png",
+        "technical_specs": [
+            "Respuesta en frecuencias 47 Hz - 18 kHz",
+            "SPL maximo 136 dB",
+            "Dispersion de agudos De 50º a 100º horizontal x 55º vertical"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "MONITOREO | MONITORES DE PISO | AMPLIFICADOR STS DSP-5.2Q",
+        "description": "Entrada balanceada XLR, conector de salida Speakon, Indicadores de operación, Señal, Clip;",
+        "image": "images/sound/amplificadorsts.png",
+        "technical_specs": [
+            "SDSP 64 bit",
+            " ALLDSP",
+            "48KHz",
+            "Filtros y EQ",
+            "FIR",
+            "Ganancia de entrada",
+            "mute",
+            "delay",
+            "limiter",
+            "compresor",
+            "compresor RMS"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "MONITOREO | F.O.H - MONITOR | 2 – CONSOLA MIDAS M32",
+        "description": "Consola digital con 40 canales para una mezcla precisa y profesional.",
+        "image": "images/sound/consolamidas.png",
+        "technical_specs": [
+            "Efectos de sonido incluidos: compresor, delay y reverb.",
+            "Alimentación fantasma para micrófonos y dispositivos."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "MONITOREO | F.O.H - MONITOR | YAMAHA LS9 DIGITAL",
+        "description": "32 canales",
+        "image": "images/sound/consolayamaha.png",
+        "technical_specs": [
+            "16 buses de mezcla",
+            "8 buses de matriz",
+            "Buses estéreo y mono con el modo LCR."
+        ]
     }
 ]
