@@ -1,13 +1,94 @@
 [
     {
         "id": 101,
-        "name": "CONSOLA MIDAS M2",
-        "description": "Cabezal móvil de alta luminosidad con capacidad de cambio de color, gobos y prismas. Uso principal en escenarios.",
+        "name": "CONSOLA M2",
+        "description": "La consola más potente de MA Lighting y ofrece el control de luces convencionales, luces móviles, luminarias LED y multimedia desde una sola plataforma.",
         "image": "images/lighting/midasm2.png",
-        "specs": [
-            "300W LED",
-            "14 Gobos",
+        "technical_specs": [
+            "Controla hasta 4096 parámetros (8 universos DMX)",
+            "Faders motorizados, faders de ejecución y un fader maestro principal.",
             "Zoom motorizado"
+        ]
+    },
+    {
+        "id": 102,
+        "name": "BEAM WASH SPOT 20R",
+        "description": "BSW MOVING HEAD | SPL-MHL-380BSW",
+        "image": "images/lighting/beam20r.png",
+        "technical_specs": [
+            "Cantidad: 12"
+        ]
+    },
+    {
+        "id": 103,
+        "name": "BEAM WASH SPOT 10R",
+        "description": "",
+        "image": "images/lighting/beam20r.png",
+        "technical_specs": [
+            "Cantidad: 11"
+        ]
+    },
+    {
+        "id": 104,
+        "name": "BEAM 7R K7",
+        "description": "",
+        "image": "images/lighting/beam7rk7.png",
+        "technical_specs": [
+            "Cantidad: 4"
+        ]
+    },
+    {
+        "id": 105,
+        "name": "BEAM 7R BIO DIPPER",
+        "description": "",
+        "image": "images/lighting/beam7rbiodipper.png",
+        "technical_specs": [
+            "Cantidad: 4"
+        ]
+    },
+    {
+        "id": 106,
+        "name": "PAR LED NEBULA 18",
+        "description": "",
+        "image": "images/lighting/parlednebula18.png",
+        "technical_specs": [
+            "Cantidad: 8"
+        ]
+    },
+    {
+        "id": 107,
+        "name": "PAR LED GENERICO",
+        "description": "",
+        "image": "images/lighting/parlednebula18.png",
+        "technical_specs": [
+            "Cantidad: 22"
+        ]
+    },
+    {
+        "id": 108,
+        "name": "PAR CAN 64 1000W",
+        "description": "",
+        "image": "images/lighting/parcan64.png",
+        "technical_specs": [
+            "Cantidad: 18"
+        ]
+    },
+    {
+        "id": 109,
+        "name": "MOLE LED",
+        "description": "",
+        "image": "images/lighting/moleled.png",
+        "technical_specs": [
+            "Cantidad: 4"
+        ]
+    },
+    {
+        "id": 110,
+        "name": "FOG MACHINE",
+        "description": "",
+        "image": "images/lighting/fogmachine.png",
+        "technical_specs": [
+            "Cantidad: 2"
         ]
     }
 ]
