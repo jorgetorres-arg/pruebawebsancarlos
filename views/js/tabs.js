@@ -69,3 +69,50 @@ document.addEventListener("DOMContentLoaded", function () {
         loadTabContent(tabName, jsonFile);
     }
 });
+
+
+//FUNCION PARA PEDIR CLAVE A ACCESO TECNICO------------------------------//
+// La función debe ser 'async' porque usaremos 'fetch' para leer el JSON
+async function checkAccessKey(event) {
+    // 1. Prevenir la acción por defecto del enlace (que es navegar a #)
+    event.preventDefault();
+
+    // 2. Definir la ubicación del archivo de la clave
+    // Ajusta la ruta si es diferente, basándote en tu estructura de carpetas (desde index.html)
+    const keyFile = 'views/json/access_key.json';
+
+    // 3. Pedir la clave al usuario
+    const userKey = prompt("Por favor, introduce la clave de acceso a Ficha Técnica:");
+
+    // Si el usuario cancela o no introduce nada, salimos de la función
+    if (userKey === null || userKey.trim() === "") {
+        return;
+    }
+
+    try {
+        // 4. Leer la clave correcta desde el JSON
+        const response = await fetch(keyFile);
+
+        if (!response.ok) {
+            throw new Error(`Error al cargar la clave: ${response.status}`);
+        }
+
+        const data = await response.json();
+        const correctKey = data.key;
+
+        // 5. Comparar las claves
+        if (userKey.trim() === correctKey) {
+            // Clave correcta: Redirigir a la página
+            alert("Acceso concedido. Redirigiendo...");
+            window.location.href = 'views/productores.html'; // Asegúrate que esta ruta sea correcta
+        } else {
+            // Clave incorrecta
+            alert("Clave incorrecta. Acceso denegado.");
+        }
+
+    } catch (error) {
+        console.error("Error en el proceso de acceso:", error);
+        alert("Ocurrió un error al verificar la clave. Por favor, inténtelo más tarde.");
+    }
+}
+//-----------------------------------------------------------------------------------------------//
