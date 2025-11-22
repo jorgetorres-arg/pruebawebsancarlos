@@ -3,14 +3,14 @@
         "id": 1,
         "image_url": "imagenes/shows/habif.jpg",
         "name": "Daniel Habif",
-        "date": "23 de Noviembre | 21:00 hs",
+        "date": "23 de Noviembre | 21:30 hs",
         "ticket_url": "https://www.plateanet.com/obra/32904?obra=DANIEL-HABIF---ASCENDER-WORLD-TOUR&paso=inicio"
     },
     {
         "id": 2,
         "image_url": "imagenes/shows/queen.jpg",
         "name": "God save to Queen",
-        "date": "29 de Noviembre | 21:00 hs",
+        "date": "29 de Noviembre | 21:30 hs",
         "ticket_url": "https://www.plateanet.com/obra/32328?obra=GOD-SAVE-THE-QUEEN-EN-JUNIN&paso=inicio"
     },
     {
@@ -38,8 +38,14 @@
         "id": 6,
         "image_url": "imagenes/shows/pimpinela.jpg",
         "name": "Pimpinela",
-        "date": "17 de Enero | 21:00 hs",
+        "date": "17 y 18 de Enero | 21:30 hs",
         "ticket_url": "https://www.plateanet.com/obra/33436?obra=PIMPINELA-EN-JUNIN&paso=inicio"
+    },
+    {
+        "id": 7,
+        "image_url": "imagenes/shows/lerner.jpg",
+        "name": "Alejandro Lerner",
+        "date": "14 de Marzo | 21:30 hs",
+        "ticket_url": "https://www.plateanet.com/obra/33443?obra=ALEJANDRO-LERNER_&paso=inicio"
     }
-
 ]
