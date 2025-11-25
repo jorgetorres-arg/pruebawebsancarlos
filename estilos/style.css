@@ -101,7 +101,7 @@ a {
 /* --- PORTADA / HERO SECTION --- */
 .hero-section {
     position: relative;
-    height: 70vh;
+    height: 45vh;
     /* Altura de la sección de portada */
     display: flex;
     align-items: center;
@@ -234,7 +234,7 @@ a {
 
 /* --- SECCIÓN DE EVENTOS --- */
 .events-section {
-    padding: 60px 40px;
+    padding: 10px 10px;
     background-color: #111;
     /* Un fondo oscuro para la sección */
     text-align: center;
@@ -506,14 +506,17 @@ a {
 @media (max-width: 768px) {
     .shows-container {
         gap: 20px;
+        /*20*/
     }
 
     .show-card {
         max-width: 90%;
+        /*90*/
     }
 
     .events-section {
         padding: 30px 20px;
+        /*30 20*/
     }
 
     /*AJUSTE PARA SECCION PRODUCTORES*/
