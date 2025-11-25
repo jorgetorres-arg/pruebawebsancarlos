@@ -1,28 +1,28 @@
 [
     {
         "id": 2,
-        "image_url": "../imagenes/shows/queen.jpg",
+        "image_url": "imagenes/shows/queen.jpg",
         "name": "God save to Queen",
         "date": "29 de Noviembre | 21:30 hs",
         "ticket_url": "https://www.plateanet.com/obra/32328?obra=GOD-SAVE-THE-QUEEN-EN-JUNIN&paso=inicio"
     },
     {
         "id": 3,
-        "image_url": "../imagenes/shows/guerrerasDoradas.jpg",
+        "image_url": "imagenes/shows/guerrerasDoradas.jpg",
         "name": "GuerrerasDoradas",
         "date": "14 de Diciembre | 17:00 hs 19:30 hs 21:00 hs",
         "ticket_url": "https://www.plateanet.com/obra/32862?obra=GUERRERAS-DORADAS-___&paso=inicio"
     },
     {
         "id": 4,
-        "image_url": "../imagenes/shows/faltayresto.jpg",
+        "image_url": "imagenes/shows/faltayresto.jpg",
         "name": "Falta y Resto",
         "date": "08 de Diciembre | 21:00 hs",
         "ticket_url": "https://www.plateanet.com/obra/32783?obra=MURGA-FALTA-Y-RESTO&paso=inicio"
     },
     {
         "id": 5,
-        "image_url": "../imagenes/shows/palitoortega.jpg",
+        "image_url": "imagenes/shows/palitoortega.jpg",
         "name": "Palito Ortega",
         "date": "10 de Mayo | 21:00 hs",
         "ticket_url": "https://www.plateanet.com/obra/32235?obra=PALITO-ORTEGA-EN-JUNIN&paso=inicio"
@@ -41,4 +41,5 @@
         "date": "14 de Marzo | 21:30 hs",
         "ticket_url": "https://www.plateanet.com/obra/33443?obra=ALEJANDRO-LERNER_&paso=inicio"
     }
+
 ]
